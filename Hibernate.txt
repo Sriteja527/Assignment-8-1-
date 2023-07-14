@@ -1,0 +1,24 @@
+Q1.What is ORM in Hibernate?
+Ans: The ORM stands for Object relational mapping it is a theory concept used at database programming to perform operations like insert, update, delete and select in object.
+Q2.What are the advantages of Hibernate over JDBC?
+Ans: In Jdbc we need to write sql queries in hibernate orm will take care of that and jdbc is not portable across multiple databases while hibernate is portable across multiple databases.
+Q3.What are some of the important interfaces of Hibernate framework?
+Ans:The some important interfaces in hibernate framework are:
+1)Transaction
+2)Session
+3)SessionFactory
+4)Configuration
+Q4.What is a Session in Hibernate?
+Ans: The session is used to get a physical connection with a database.
+Q5.What is a SessionFactory?
+Ans: A sessionfactory is an important component within ORM frameworks that provides a way to create sessions and the sessionfactory is created by providing configuration details(hibernate.cfg.xml) it contains all db related details.
+Q6.What is HQL?
+Ans:In HQL, instead of a table name, it uses a class name. As a result, it is a query language that is database-independent. Hibernate converts HQL queries into SQL queries, which are then used to perform database actions.
+Q7.What are Many to Many associations?
+Ans:A many-to-many relationship occurs when multiple records in a table are associated with multiple records in another table.
+Q8.What is hibernate caching?
+Ans:Hibernate caching improves the performance of the application by pooling the object in the cache. It is useful when we have to fetch the same data multiple times.
+Q9.What is the difference between first level cache and second level cache?
+Ans:Unlike the first-level cache which is accessible only to the session that maintains it, Second-level Cache is accessible to all Sessions.
+Q10.What can you tell about Hibernate Configuration File?
+Ans: hibernate.cfg.xml file contains database related information.
